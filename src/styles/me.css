@@ -1,0 +1,34 @@
+.doctor1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.card-wraper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.doctor-image {
+    height: 250px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+@media screen AND(max-width: 1024px) {
+        .card-wraper {
+            grid-template-columns:repeat(2, 1fr)
+        }
+    }
+
+    @media screen AND (max-width: 600px) {
+        .card-wraper {
+            grid-template-columns:repeat(1,1fr)
+        }
+    }

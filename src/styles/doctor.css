@@ -1,0 +1,41 @@
+.doctor-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 5rem 0;
+}
+
+.dimage {
+    height: 250px;
+}
+
+.dcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tittle {
+    background-color: aqua;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: fit-content;
+    font-weight: 500px;
+}
+
+/* tablet mode */
+@media screen AND (max-width: 1024px) {
+    .doctor-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+/* phone */
+@media screen AND (max-width: 600px) {
+    .doctor-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}

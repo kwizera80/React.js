@@ -1,0 +1,61 @@
+.navbar{
+    padding: 1.3rem 5rem;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    font-size: 2rem;
+    margin-top: 0.3rem;
+    color: rgb(21, 255, 0);
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none !important;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+}
+.login-btn{
+    background-color: #4caf50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 120px;
+}
+.login-btn a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+@media screen AND (max-width: 1024px) {
+    .works-container{
+       display: grid;
+       grid-template-columns: 2fr 1fr;
+   }
+
+}
+@media screen AND (max-width: 600px) {
+   .works-container{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+
+}
+

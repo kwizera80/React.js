@@ -1,0 +1,35 @@
+.wcontainer {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.workimage-continer {
+    width: 100px;
+}
+
+.yvona {
+    background-color: blue;
+}
+
+.works-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+@media screen AND (max-width: 1024px) {
+     .works-container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+}
+@media screen AND (max-width: 600px) {
+    .works-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}

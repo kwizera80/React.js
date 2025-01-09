@@ -1,0 +1,43 @@
+.welcome-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.left-container button{
+    width: fit-content;
+    background-color: rgb(37, 199, 199);
+    padding: 0.7rem 1rem;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.contents{
+    display: flex;
+    gap: 2rem;
+}
+.right-container img{
+    border-radius: 12px !important;
+}
+@media screen AND (max-width: 1024px) {
+    .works-container{
+       display: grid;
+       grid-template-columns: 2fr 1fr;
+   }
+
+}
+@media screen AND (max-width: 600px) {
+   .works-container{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+
+}
