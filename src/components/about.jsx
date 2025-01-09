@@ -22,7 +22,7 @@ function about() {
                 <div className="aboutcard">
                     <div className="cardimage"><img src={doctor} alt="" /></div>
                     <div className="cardcontent">
-                        <h1>KAMBANDA Yvonne</h1>
+                        <h1>Help</h1>
                         <h4>Acuruza ibitindi muri pharmacy ! </h4>
 
                     </div>
@@ -31,7 +31,7 @@ function about() {
                 <div className="aboutcard">
                     <div className="cardimage"><img src={doctor} alt="" /></div>
                     <div className="cardcontent">
-                        <h1>GetDoctor</h1>
+                        <h1>contact Us</h1>
                         <p>Lorem,  tempora consequatur! </p>
 
                     </div>
